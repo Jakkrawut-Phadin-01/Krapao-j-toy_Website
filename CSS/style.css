@@ -1,0 +1,35 @@
+/* This is a global file */
+
+/* import section css */
+@import url("./sections/header.css");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap");
+
+
+/* global variables */
+:root {
+
+  --font-title: "Gravitas One", serif;
+  --font-body: Arial, Helvetica, sans-serif;
+
+  --red-dark: #8b1d18;
+  --orange: #f97316;
+  --cream: #fff4e6;
+  --black: #1a1a1a;
+  --white: #ffffff;
+}
+
+
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--cream);
+  color: var(--black);
+}
+
