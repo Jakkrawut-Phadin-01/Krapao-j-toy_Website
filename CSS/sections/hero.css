@@ -20,12 +20,19 @@
   object-fit: contain;
 }
 
+.hero-image__overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+
+  background-color: var(--red-dark);
+  z-index: -1;
+}
+
 .rotate-text {
   font-size: 64px;
   font-weight: bold;
 
-  transform: rotate(-90deg); /* หมุนทวนเข็ม */
-  /* หรือ rotate(90deg) ถ้าอยากหมุนอีกด้าน */
-
+  transform: rotate(-90deg);
   transform-origin: left top;
 }
